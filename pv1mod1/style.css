@@ -1,0 +1,66 @@
+img{
+    width: 500px;
+    height: auto;
+}
+
+.seila{
+    display: flex;
+    flex-direction: row;
+    justify-content: center; /* Centraliza os elementos na direção horizontal (eixo principal) */
+}
+
+.seila p{
+    margin-right: 10px;
+}
+.seila select{
+    width: flex; /* Largura do container */
+    height: 40px; /* Altura do container */
+}
+
+main {
+    border: 2px solid black;
+    width: 500px;
+    margin: 0 auto; /* Centraliza horizontalmente */
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    flex-direction: column; /* Define o layout como coluna */
+    align-items: flex-start; /* Alinha os elementos na horizontal à esquerda */
+    justify-content: center; /* Centraliza os elementos na vertical */
+    width: 500px; /* Define a largura da div (opcional) */
+    margin: 0 auto; /* Centraliza a div na horizontal (opcional) */
+} 
+.container p {
+    text-align: left; /* Alinha o texto à esquerda */
+}
+
+.botoes{
+    flex-direction: row;
+    align-items: center;
+    justify-content: row flex-end;
+    border: 0;
+    margin: 0;
+    display: flex;
+}
+button{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10.8% ;
+    padding-right: 12%;
+    color: white;
+}
+.J1{
+    background-color: green;
+    border: 2px solid black;
+
+}
+.J2{
+    background-color: blue;
+    border: 2px solid black;
+}
+.Reset{
+    background-color: red;
+    border: 2px solid black;
+}

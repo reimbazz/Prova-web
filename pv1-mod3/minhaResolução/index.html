@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilo.css">
+    <title>MOD3</title>
+</head>
+<body>
+    <main>
+        <h1>Jogo da Advinhação</h1>
+        <section class="areaTotal">
+
+            <section class="areaImagem">
+                <img src="https://th.bing.com/th/id/OIP.XWC4IGgbjjlImBFP05TBwAHaHa?pid=ImgDet&rs=1" alt="Pessoa pensante">
+
+            </section>
+            <section class="area-textos">
+
+                <section class="Area-pensamento">
+                    <h2>Área do Pensamento</h2>
+                    <p>Olá!Eu sou o Chat-Jequiti. Irei pensar em um número entre 'inicio' e 'fim'.</p>
+                    <p>Após digitar os numeros clique em 'Pensar'</p>
+                    <label for="inicio">Início</label>
+                    <input type="text" name="inicio" id="inicio">
+                    <label for="Fim">Fim</label>
+                    <input type="text" name="Fim" id="Fim">
+                    <button id="btnPensar">Pensar</button>
+                    
+                </section>
+    
+                <section class="area-adivinhacao">
+                    <h2>Área da Advinhação</h2>
+                    <label for="palpite">Qual numero estou pensando?</label>
+                    <input type="text" name="palpite" id="palpite">
+                    <button id="btnAdvinhar">Advinhar</button>
+                </section>
+        </section>
+    </main>
+    <section class="areaResposta">
+        <p><span id="spanAqui"></span></p>
+    </section>
+    <script type="module" src="meu.js"></script>
+</body>
+</html>

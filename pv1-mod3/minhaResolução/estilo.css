@@ -1,0 +1,47 @@
+h1{
+    text-align: center;
+}
+
+main{
+    font-family: 'Comme', sans-serif;
+    display: flex;
+    flex-direction: column;
+}
+
+.areaTotal{
+    border: 1px solid black;
+    display: flex;
+    flex-direction: row;
+    border-radius: 2rem;
+    margin: 0 auto;
+}
+
+
+
+
+.area-textos{
+    display: flex;
+    flex-direction: column;
+    margin: 30px;
+}
+.Area-pensamento{
+    justify-content: space-evenly;
+    margin-bottom: 50px;
+    
+
+}
+.areaResposta{
+    text-align: center;
+    font-size: 2em;
+
+}
+
+img{
+    width: 100%;
+    border-radius: 5%;
+    margin: 5%;
+    
+}
+input{
+    width: 20%;
+}

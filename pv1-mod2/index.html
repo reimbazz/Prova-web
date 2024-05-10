@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com"> 
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+    <link href="https://fonts.googleapis.com/css2?family=Comme:wght@200&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>PV1</title>
+</head>
+<body>
+    <div class="inicio">
+        <h1>Carrinho de Compras Mágico</h1>
+        <img src="fig-prova.jpg" alt="carrinho de compras">
+    </div>
+
+    <main>
+        <label for="nomeProduto">Nome</label>
+        <input type="text" name="nomeProduto" id="nomeProduto">
+        <label for="Quantidade">Quantidade</label>
+        <select name="Quantidade" id="Quantidade">
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+        </select>
+        <button class="add" id="btnadd">Adicionar</button>
+    </main>
+    <div class="end">
+        <p>Meus Produtos</p>
+        <ul id="listaProdutos">
+
+        </ul>
+    </div>
+    <script src="mod2.js"></script>
+    <footer>
+        <p class="final">Feito com ❤️ por <a href="http://github.com/reimbazz" target="_blank">Pedro Reimberg</a></p>
+    </footer>
+</body>
+</html>
